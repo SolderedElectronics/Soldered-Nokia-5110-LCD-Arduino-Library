@@ -93,7 +93,18 @@ void setup()
     // This doesn't clear the display fully before we call display.display(), just the memory buffer
     display.clearDisplay();
 
-    // Let's draw some shapes
+    // Drawing individual pixels
+    // Three pixels in upper left corner
+    display.drawPixel(3, 2, BLACK);
+    display.drawPixel(5, 2, BLACK);
+    display.drawPixel(7, 2, BLACK);
+
+    // Three pixels in lower right corner
+    display.drawPixel(76, 47, BLACK);
+    display.drawPixel(78, 47, BLACK);
+    display.drawPixel(80, 47, BLACK);
+
+    // Let's draw some shapes!
     // For hollow shapes use draw___ functions
     // For filled shapes, use fill___ functions
 
