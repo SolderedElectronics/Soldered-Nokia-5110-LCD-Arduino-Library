@@ -3,6 +3,8 @@ var hierarchy =
     [ "Adafruit_GFX_Button", "class_adafruit___g_f_x___button.html", null ],
     [ "Adafruit_SPIDevice", "class_adafruit___s_p_i_device.html", null ],
     [ "EasyC", "class_easy_c.html", null ],
+    [ "GFXfont", "struct_g_f_xfont.html", null ],
+    [ "GFXglyph", "struct_g_f_xglyph.html", null ],
     [ "Print", null, [
       [ "Adafruit_GFX", "class_adafruit___g_f_x.html", [
         [ "Adafruit_PCD8544", "class_adafruit___p_c_d8544.html", [

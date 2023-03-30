@@ -8,5 +8,7 @@ var annotated_dup =
     [ "GFXcanvas1", "class_g_f_xcanvas1.html", "class_g_f_xcanvas1" ],
     [ "GFXcanvas16", "class_g_f_xcanvas16.html", "class_g_f_xcanvas16" ],
     [ "GFXcanvas8", "class_g_f_xcanvas8.html", "class_g_f_xcanvas8" ],
+    [ "GFXfont", "struct_g_f_xfont.html", "struct_g_f_xfont" ],
+    [ "GFXglyph", "struct_g_f_xglyph.html", "struct_g_f_xglyph" ],
     [ "LCD_5510", "class_l_c_d__5510.html", "class_l_c_d__5510" ]
 ];
