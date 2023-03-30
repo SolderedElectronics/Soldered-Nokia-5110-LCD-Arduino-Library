@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_1',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensor_2',['Sensor',['../class_sensor.html',1,'Sensor'],['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor::Sensor()']]]
+  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]],
+  ['nokia_2d5510_2dlcd_2dsoldered_2ecpp_1',['Nokia-5510-LCD-SOLDERED.cpp',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
+  ['nokia_2d5510_2dlcd_2dsoldered_2eh_2',['Nokia-5510-LCD-SOLDERED.h',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
 ];
