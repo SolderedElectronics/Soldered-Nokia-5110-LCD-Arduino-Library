@@ -18,13 +18,13 @@
 class LCD_5510 : public Adafruit_PCD8544
 {
   public:
-    LCD_5510(int8_t sclk_pin, int8_t din_pin, int8_t dc_pin, int8_t cs_pin, int8_t rst_pin) : Adafruit_PCD8544(sclk_pin, din_pin, dc_pin, cs_pin, rst_pin)
+    LCD_5510(int8_t sclk_pin, int8_t din_pin, int8_t dc_pin, int8_t cs_pin, int8_t rst_pin)
+        : Adafruit_PCD8544(sclk_pin, din_pin, dc_pin, cs_pin, rst_pin)
     {
-
     }
-    LCD_5510(int8_t dc_pin, int8_t cs_pin, int8_t rst_pin, SPIClass *theSPI = &SPI) : Adafruit_PCD8544(dc_pin, cs_pin, rst_pin)
+    LCD_5510(int8_t dc_pin, int8_t cs_pin, int8_t rst_pin, SPIClass *theSPI = &SPI)
+        : Adafruit_PCD8544(dc_pin, cs_pin, rst_pin)
     {
-
     }
 };
 
