@@ -9,7 +9,6 @@
 #endif
 #include "gfxfont.h"
 
-#include <Adafruit_I2CDevice.h>
 #include <Adafruit_SPIDevice.h>
 
 /// A generic graphics superclass that can handle all sorts of drawing. At a
