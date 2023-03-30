@@ -6,11 +6,47 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
+LCD_5510	KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
 begin	KEYWORD2
+command	KEYWORD2
+data	KEYWORD2
+setContrast	KEYWORD2
+getContrast	KEYWORD2
+getBias	KEYWORD2
+setBias	KEYWORD2
+clearDisplay;	KEYWORD2
+display	KEYWORD2
+updateBoundingBox	KEYWORD2
+setReinitInterval	KEYWORD2
+getReinitInterval	KEYWORD2
+drawPixel	KEYWORD2
+setPixel	KEYWORD2
+getPixel	KEYWORD2
+initDisplay	KEYWORD2
+invertDisplay	KEYWORD2
+scroll	KEYWORD2
+setRotation			KEYWORD2
+fillRect			KEYWORD2
+fillScreen			KEYWORD2
+drawLine			KEYWORD2
+fillRect			KEYWORD2
+drawRect			KEYWORD2
+drawElipse			KEYWORD2
+fillElipse			KEYWORD2
+drawPolygon			KEYWORD2
+drawCircle			KEYWORD2
+fillCircle			KEYWORD2
+drawTriangle		KEYWORD2
+fillTriangle		KEYWORD2
+drawRoundRect		KEYWORD2
+fillRoundRect		KEYWORD2
+drawBitmap			KEYWORD2
+
 
 ##################################################
 # Constants (LITERAL1)
