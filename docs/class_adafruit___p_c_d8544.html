@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c33abcd850e72ee9e54541a487e1510"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#a5c33abcd850e72ee9e54541a487e1510">Adafruit_PCD8544</a> (int8_t sclk_pin, int8_t din_pin, int8_t dc_pin, int8_t cs_pin, int8_t rst_pin)</td></tr>
 <tr class="memdesc:a5c33abcd850e72ee9e54541a487e1510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for software SPI with explicit CS pin.  <br /></td></tr>
 <tr class="separator:a5c33abcd850e72ee9e54541a487e1510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6122cc4a15a866026522ebe5b2906d9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#a6122cc4a15a866026522ebe5b2906d9a">Adafruit_PCD8544</a> (int8_t dc_pin, int8_t cs_pin, int8_t rst_pin, SPIClass *theSPI=&amp;SPI)</td></tr>
+<tr class="memitem:a6122cc4a15a866026522ebe5b2906d9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#a6122cc4a15a866026522ebe5b2906d9a">Adafruit_PCD8544</a> (int8_t dc_pin, int8_t cs_pin, int8_t rst_pin, <a class="el" href="_adafruit___s_p_i_device_8h.html#aa9458522facce027467c2ae905f3bffc">SPIClass</a> *theSPI=&amp;SPI)</td></tr>
 <tr class="memdesc:a6122cc4a15a866026522ebe5b2906d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for hardware SPI based on hardware controlled SCK (SCLK) and MOSI (DIN) pins. CS is still controlled by any IO pin. NOTE: MISO and SS will be set as an input and output respectively, so be careful sharing those pins!  <br /></td></tr>
 <tr class="separator:a6122cc4a15a866026522ebe5b2906d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4def5ca5bdcc1607c34c104bf3362f41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#a4def5ca5bdcc1607c34c104bf3362f41">begin</a> (uint8_t contrast=40, uint8_t bias=0x04)</td></tr>
@@ -349,7 +349,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae1ed26b21e639b807ea772cbb92b16a5"><td class="memItemLeft" align="right" valign="top">Adafruit_SPIDevice *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">spi_dev</a> = NULL</td></tr>
+<tr class="memitem:ae1ed26b21e639b807ea772cbb92b16a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adafruit___s_p_i_device.html">Adafruit_SPIDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">spi_dev</a> = NULL</td></tr>
 <tr class="separator:ae1ed26b21e639b807ea772cbb92b16a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ff813f9d71f6d8616cff0f69ceb9a4"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___p_c_d8544.html#a42ff813f9d71f6d8616cff0f69ceb9a4">_rstpin</a> = -1</td></tr>
 <tr class="separator:a42ff813f9d71f6d8616cff0f69ceb9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SPIClass *&#160;</td>
+          <td class="paramtype"><a class="el" href="_adafruit___s_p_i_device_8h.html#aa9458522facce027467c2ae905f3bffc">SPIClass</a> *&#160;</td>
           <td class="paramname"><em>theSPI</em> = <code>&amp;SPI</code>&#160;</td>
         </tr>
         <tr>
@@ -1252,7 +1252,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Adafruit_SPIDevice* Adafruit_PCD8544::spi_dev = NULL</td>
+          <td class="memname"><a class="el" href="class_adafruit___s_p_i_device.html">Adafruit_SPIDevice</a>* Adafruit_PCD8544::spi_dev = NULL</td>
         </tr>
       </table>
   </td>
@@ -1364,7 +1364,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_adafruit___p_c_d8544.html">Adafruit_PCD8544</a></li>
         <li class="footer">
-            Generated on Thu Mar 30 2023 09:55:22 for Soldered Nokia 5110 LCD Breakout Arduino library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Mar 30 2023 10:01:30 for Soldered Nokia 5110 LCD Breakout Arduino library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

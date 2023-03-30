@@ -102,8 +102,8 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define _ADAFRUIT_PCD8544_H</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;<a class="code" href="_adafruit___g_f_x_8h.html">Adafruit_GFX.h</a>&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;Adafruit_SPIDevice.h&gt;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;../Adafruit_GFX.h&gt;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;../Adafruit_SPIDevice.h&gt;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;SPI.h&gt;</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define BLACK 1 </span></div>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <a class="code hl_class" href="class_adafruit___p_c_d8544.html">Adafruit_PCD8544</a>(int8_t sclk_pin, int8_t din_pin, int8_t dc_pin,</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                   int8_t cs_pin, int8_t rst_pin);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <a class="code hl_class" href="class_adafruit___p_c_d8544.html">Adafruit_PCD8544</a>(int8_t dc_pin, int8_t cs_pin, int8_t rst_pin,</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                   SPIClass *theSPI = &amp;SPI);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                   <a class="code hl_typedef" href="_adafruit___s_p_i_device_8h.html#aa9458522facce027467c2ae905f3bffc">SPIClass</a> *theSPI = &amp;SPI);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="class_adafruit___p_c_d8544.html#a4def5ca5bdcc1607c34c104bf3362f41">begin</a>(uint8_t contrast = 40, uint8_t bias = 0x04);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_adafruit___p_c_d8544.html#a0ee1a57e50a5a35c69be0386c0243ee9">scroll</a>(int8_t vpixels, int8_t hpixels);</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">   99</a></span>  Adafruit_SPIDevice *<a class="code hl_variable" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">spi_dev</a> = NULL;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">   99</a></span>  <a class="code hl_class" href="class_adafruit___s_p_i_device.html">Adafruit_SPIDevice</a> *<a class="code hl_variable" href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">spi_dev</a> = NULL;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="class_adafruit___p_c_d8544.html#a26eef2ff957585407567465cbe78c555">  100</a></span>  int8_t <a class="code hl_variable" href="class_adafruit___p_c_d8544.html#a42ff813f9d71f6d8616cff0f69ceb9a4">_rstpin</a> = -1, <a class="code hl_variable" href="class_adafruit___p_c_d8544.html#a26eef2ff957585407567465cbe78c555">_dcpin</a> = -1;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="class_adafruit___p_c_d8544.html#a3b4e5c1835a09ed1981d0e5d073372ad">  102</a></span>  uint8_t <a class="code hl_variable" href="class_adafruit___p_c_d8544.html#a3b4e5c1835a09ed1981d0e5d073372ad">_contrast</a>;        </div>
@@ -184,7 +184,7 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="a_adafruit___g_f_x_8h_html"><div class="ttname"><a href="_adafruit___g_f_x_8h.html">Adafruit_GFX.h</a></div></div>
+<div class="ttc" id="a_adafruit___s_p_i_device_8h_html_aa9458522facce027467c2ae905f3bffc"><div class="ttname"><a href="_adafruit___s_p_i_device_8h.html#aa9458522facce027467c2ae905f3bffc">SPIClass</a></div><div class="ttdeci">uint8_t SPIClass</div><div class="ttdef"><b>Definition:</b> Adafruit_SPIDevice.h:14</div></div>
 <div class="ttc" id="aclass_adafruit___g_f_x_html"><div class="ttname"><a href="class_adafruit___g_f_x.html">Adafruit_GFX</a></div><div class="ttdef"><b>Definition:</b> Adafruit_GFX.h:18</div></div>
 <div class="ttc" id="aclass_adafruit___p_c_d8544_html"><div class="ttname"><a href="class_adafruit___p_c_d8544.html">Adafruit_PCD8544</a></div><div class="ttdoc">The PCD8544 LCD class.</div><div class="ttdef"><b>Definition:</b> Adafruit_PCD8544.h:64</div></div>
 <div class="ttc" id="aclass_adafruit___p_c_d8544_html_a058bbd301aa471d842f194e311b3fae5"><div class="ttname"><a href="class_adafruit___p_c_d8544.html#a058bbd301aa471d842f194e311b3fae5">Adafruit_PCD8544::command</a></div><div class="ttdeci">void command(uint8_t c)</div><div class="ttdoc">Send a command to the LCD.</div><div class="ttdef"><b>Definition:</b> Adafruit_PCD8544.cpp:274</div></div>
@@ -216,6 +216,7 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
 <div class="ttc" id="aclass_adafruit___p_c_d8544_html_ad90414ad525c0dc0512777ff0638d80e"><div class="ttname"><a href="class_adafruit___p_c_d8544.html#ad90414ad525c0dc0512777ff0638d80e">Adafruit_PCD8544::drawPixel</a></div><div class="ttdeci">void drawPixel(int16_t x, int16_t y, uint16_t color)</div><div class="ttdoc">The most basic function, set a single pixel, in the main buffer.</div><div class="ttdef"><b>Definition:</b> Adafruit_PCD8544.cpp:128</div></div>
 <div class="ttc" id="aclass_adafruit___p_c_d8544_html_ae1ed26b21e639b807ea772cbb92b16a5"><div class="ttname"><a href="class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5">Adafruit_PCD8544::spi_dev</a></div><div class="ttdeci">Adafruit_SPIDevice * spi_dev</div><div class="ttdef"><b>Definition:</b> Adafruit_PCD8544.h:99</div></div>
 <div class="ttc" id="aclass_adafruit___p_c_d8544_html_ae3fa32f76b8656d2e5def0244bdfbd33"><div class="ttname"><a href="class_adafruit___p_c_d8544.html#ae3fa32f76b8656d2e5def0244bdfbd33">Adafruit_PCD8544::initDisplay</a></div><div class="ttdeci">void initDisplay()</div><div class="ttdoc">Initialize the display. Set bias and contrast, enter normal mode.</div><div class="ttdef"><b>Definition:</b> Adafruit_PCD8544.cpp:209</div></div>
+<div class="ttc" id="aclass_adafruit___s_p_i_device_html"><div class="ttname"><a href="class_adafruit___s_p_i_device.html">Adafruit_SPIDevice</a></div><div class="ttdef"><b>Definition:</b> Adafruit_SPIDevice.h:84</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -224,7 +225,7 @@ $(document).ready(function(){initNavTree('_adafruit___p_c_d8544_8h_source.html',
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_c3d120b8e03ae29f5ba1c19d7e3985cb.html">Adafruit_PCD8544_Nokia_5110_LCD_library</a></li><li class="navelem"><a class="el" href="_adafruit___p_c_d8544_8h.html">Adafruit_PCD8544.h</a></li>
         <li class="footer">
-            Generated on Thu Mar 30 2023 09:55:22 for Soldered Nokia 5110 LCD Breakout Arduino library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Mar 30 2023 10:01:30 for Soldered Nokia 5110 LCD Breakout Arduino library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

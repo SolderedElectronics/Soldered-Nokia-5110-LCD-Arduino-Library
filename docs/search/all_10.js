@@ -1,7 +1,27 @@
 var searchData=
 [
-  ['textbgcolor_0',['textbgcolor',['../class_adafruit___g_f_x.html#a23e7a4efcab0b1588dc0cafa14b1fac1',1,'Adafruit_GFX']]],
-  ['textcolor_1',['textcolor',['../class_adafruit___g_f_x.html#a8c6d23a386651136fd9530a5b7046591',1,'Adafruit_GFX']]],
-  ['textsize_5fx_2',['textsize_x',['../class_adafruit___g_f_x.html#a9c33cd6928ad6738a633e97727ae8773',1,'Adafruit_GFX']]],
-  ['textsize_5fy_3',['textsize_y',['../class_adafruit___g_f_x.html#aa8588c3941eec083563c853ada3dd771',1,'Adafruit_GFX']]]
+  ['readme_2emd_0',['README.md',['../src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2_r_e_a_d_m_e_8md.html',1,'']]],
+  ['scroll_1',['scroll',['../class_adafruit___p_c_d8544.html#a0ee1a57e50a5a35c69be0386c0243ee9',1,'Adafruit_PCD8544']]],
+  ['sendaddress_2',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
+  ['senddata_3',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
+  ['setbias_4',['setBias',['../class_adafruit___p_c_d8544.html#a657a51185881e20d747c2993fd0aa5e6',1,'Adafruit_PCD8544']]],
+  ['setchipselect_5',['setChipSelect',['../class_adafruit___s_p_i_device.html#a0e9f91766b66b5f34ffd799525d68eda',1,'Adafruit_SPIDevice']]],
+  ['setcontrast_6',['setContrast',['../class_adafruit___p_c_d8544.html#a117a5ab05a6d9c769a4dccde1a31ba68',1,'Adafruit_PCD8544']]],
+  ['setcursor_7',['setCursor',['../class_adafruit___g_f_x.html#aaf96a40cad0f34dd8ec73494b3866c33',1,'Adafruit_GFX']]],
+  ['setfont_8',['setFont',['../class_adafruit___g_f_x.html#ab0479a2bb4e09e7c39c35e35c55d6ed1',1,'Adafruit_GFX']]],
+  ['setpixel_9',['setPixel',['../class_adafruit___p_c_d8544.html#a6e603ebd630133fc5751e41165d64b63',1,'Adafruit_PCD8544']]],
+  ['setreinitinterval_10',['setReinitInterval',['../class_adafruit___p_c_d8544.html#a1d3e0c6138e184efddb6ab6c1073bfc3',1,'Adafruit_PCD8544']]],
+  ['setrotation_11',['setRotation',['../class_adafruit___g_f_x.html#a6ac337c49876cee23ed062a928724675',1,'Adafruit_GFX']]],
+  ['settextcolor_12',['setTextColor',['../class_adafruit___g_f_x.html#ab6e88c585d3ab6b4f95199361f224fc6',1,'Adafruit_GFX::setTextColor(uint16_t c, uint16_t bg)'],['../class_adafruit___g_f_x.html#a59178a0e0c845a14a39b457c43567dd9',1,'Adafruit_GFX::setTextColor(uint16_t c)']]],
+  ['settextsize_13',['setTextSize',['../class_adafruit___g_f_x.html#a39eb4a8a2c9fa4ab7d58ceffd19535d5',1,'Adafruit_GFX::setTextSize(uint8_t s)'],['../class_adafruit___g_f_x.html#abd8ea7d9203db38d7b601979f1252e37',1,'Adafruit_GFX::setTextSize(uint8_t sx, uint8_t sy)']]],
+  ['settextwrap_14',['setTextWrap',['../class_adafruit___g_f_x.html#a2f69fe66c38989e75be3216be22359b1',1,'Adafruit_GFX']]],
+  ['soldered_20nokia_205110_20lcd_20breakout_20arduino_20library_15',['Soldered Nokia 5110 LCD Breakout Arduino library',['../index.html',1,'']]],
+  ['spi_5fbitorder_5flsbfirst_16',['SPI_BITORDER_LSBFIRST',['../_adafruit___s_p_i_device_8h.html#a7bc3597abe6f7bd321be6c1dda888db5a7a075a3dd6855542eb39b6549ec1f9a6',1,'Adafruit_SPIDevice.h']]],
+  ['spi_5fbitorder_5fmsbfirst_17',['SPI_BITORDER_MSBFIRST',['../_adafruit___s_p_i_device_8h.html#a7bc3597abe6f7bd321be6c1dda888db5a86a2a85476827647da7b3ea36b0bd461',1,'Adafruit_SPIDevice.h']]],
+  ['spi_5fdev_18',['spi_dev',['../class_adafruit___p_c_d8544.html#ae1ed26b21e639b807ea772cbb92b16a5',1,'Adafruit_PCD8544']]],
+  ['spi_5fmode0_19',['SPI_MODE0',['../_adafruit___s_p_i_device_8h.html#a06fc87d81c62e9abb8790b6e5713c55baacf2eef6aadb9f0de11862660cd9ade6',1,'Adafruit_SPIDevice.h']]],
+  ['spi_5fmode1_20',['SPI_MODE1',['../_adafruit___s_p_i_device_8h.html#a06fc87d81c62e9abb8790b6e5713c55babd92ab028fcac05cf2ed27b4838d1590',1,'Adafruit_SPIDevice.h']]],
+  ['spi_5fmode2_21',['SPI_MODE2',['../_adafruit___s_p_i_device_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba2607e91fc0c8ae3334284808d7f94cf5',1,'Adafruit_SPIDevice.h']]],
+  ['spiclass_22',['SPIClass',['../_adafruit___s_p_i_device_8h.html#aa9458522facce027467c2ae905f3bffc',1,'Adafruit_SPIDevice.h']]],
+  ['startwrite_23',['startWrite',['../class_adafruit___g_f_x.html#aa991435d3d38f6818fc93f9370c0b3e5',1,'Adafruit_GFX']]]
 ];

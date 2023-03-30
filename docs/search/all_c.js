@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]],
-  ['nokia_2d5510_2dlcd_2dsoldered_2ecpp_1',['Nokia-5510-LCD-SOLDERED.cpp',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['nokia_2d5510_2dlcd_2dsoldered_2eh_2',['Nokia-5510-LCD-SOLDERED.h',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['misopinmask_0',['misoPinMask',['../class_adafruit___s_p_i_device.html#a52686e958a67d1fa6f32dcbe97ac8e40',1,'Adafruit_SPIDevice']]],
+  ['misoport_1',['misoPort',['../class_adafruit___s_p_i_device.html#a7e2721cd991b997b07810c22862ba8a5',1,'Adafruit_SPIDevice']]],
+  ['mosipinmask_2',['mosiPinMask',['../class_adafruit___s_p_i_device.html#a0f680ec4e8db38d226e4c7c80bd5c929',1,'Adafruit_SPIDevice']]],
+  ['mosiport_3',['mosiPort',['../class_adafruit___s_p_i_device.html#a7fc089e2c00d81e5adb68c1b3dfd5ef0',1,'Adafruit_SPIDevice']]]
 ];

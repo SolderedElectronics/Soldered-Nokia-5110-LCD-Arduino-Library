@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_2',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
-  ['rotation_3',['rotation',['../class_adafruit___g_f_x.html#a37a479d28fb11906ce516e983b1af926',1,'Adafruit_GFX']]]
+  ['pcd8544_5fbuffer_0',['pcd8544_buffer',['../_adafruit___p_c_d8544_8cpp.html#a289134c303d75918072e684e0e6d32f5',1,'Adafruit_PCD8544.cpp']]],
+  ['pgm_5fread_5fbitmap_5fptr_1',['pgm_read_bitmap_ptr',['../_adafruit___g_f_x_8cpp.html#ab0b32d01fb72fa8e22233aaf268a24cf',1,'Adafruit_GFX.cpp']]],
+  ['pgm_5fread_5fglyph_5fptr_2',['pgm_read_glyph_ptr',['../_adafruit___g_f_x_8cpp.html#ac5a3a569ed7a3e613c38ff9ffefee58f',1,'Adafruit_GFX.cpp']]],
+  ['press_3',['press',['../class_adafruit___g_f_x___button.html#a932228d686e6dec88b8b99d03fdb59a7',1,'Adafruit_GFX_Button']]]
 ];

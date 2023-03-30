@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pcd8544_5fbuffer_0',['pcd8544_buffer',['../_adafruit___p_c_d8544_8cpp.html#a289134c303d75918072e684e0e6d32f5',1,'Adafruit_PCD8544.cpp']]]
+  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
 ];
