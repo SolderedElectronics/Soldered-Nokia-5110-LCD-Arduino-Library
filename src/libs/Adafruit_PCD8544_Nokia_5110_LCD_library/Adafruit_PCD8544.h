@@ -23,8 +23,8 @@
 #define _ADAFRUIT_PCD8544_H
 
 #include "Arduino.h"
-#include <Adafruit_GFX.h>
-#include <Adafruit_SPIDevice.h>
+#include <../Adafruit_GFX.h>
+#include <../Adafruit_SPIDevice.h>
 #include <SPI.h>
 
 #define BLACK 1 ///< Black pixel
