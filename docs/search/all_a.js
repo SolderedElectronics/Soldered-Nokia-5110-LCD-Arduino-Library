@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['pcd8544_5fbuffer_0',['pcd8544_buffer',['../_adafruit___p_c_d8544_8cpp.html#a289134c303d75918072e684e0e6d32f5',1,'Adafruit_PCD8544.cpp']]]
+  ['justpressed_0',['justPressed',['../class_adafruit___g_f_x___button.html#ad263405e09f7f2415d6fed2628637c7c',1,'Adafruit_GFX_Button']]],
+  ['justreleased_1',['justReleased',['../class_adafruit___g_f_x___button.html#aad3fc2981cbe9dc16dc06a781d8fee90',1,'Adafruit_GFX_Button']]]
 ];

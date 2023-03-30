@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['lcd_5f5510_0',['LCD_5510',['../class_l_c_d__5510.html',1,'']]]
+  ['gfxcanvas1_0',['GFXcanvas1',['../class_g_f_xcanvas1.html',1,'']]],
+  ['gfxcanvas16_1',['GFXcanvas16',['../class_g_f_xcanvas16.html',1,'']]],
+  ['gfxcanvas8_2',['GFXcanvas8',['../class_g_f_xcanvas8.html',1,'']]]
 ];

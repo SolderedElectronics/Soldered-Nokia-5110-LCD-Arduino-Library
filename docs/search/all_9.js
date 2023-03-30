@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]],
-  ['nokia_2d5510_2dlcd_2dsoldered_2ecpp_1',['Nokia-5510-LCD-SOLDERED.cpp',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['nokia_2d5510_2dlcd_2dsoldered_2eh_2',['Nokia-5510-LCD-SOLDERED.h',['../_nokia-5510-_l_c_d-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['initbutton_0',['initButton',['../class_adafruit___g_f_x___button.html#a0cb6999a324b9999a1f4b610e36b16b6',1,'Adafruit_GFX_Button::initButton(Adafruit_GFX *gfx, int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize)'],['../class_adafruit___g_f_x___button.html#ae1ecd12ab77b88bfe5a3a32ffc8eb5d4',1,'Adafruit_GFX_Button::initButton(Adafruit_GFX *gfx, int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize_x, uint8_t textsize_y)']]],
+  ['initbuttonul_1',['initButtonUL',['../class_adafruit___g_f_x___button.html#a471d43fc4fb575b2868190d1ec832af7',1,'Adafruit_GFX_Button::initButtonUL(Adafruit_GFX *gfx, int16_t x1, int16_t y1, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize)'],['../class_adafruit___g_f_x___button.html#ad0febb5e28695d0ac2cac6a31cf6f27b',1,'Adafruit_GFX_Button::initButtonUL(Adafruit_GFX *gfx, int16_t x1, int16_t y1, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize_x, uint8_t textsize_y)']]],
+  ['initdisplay_2',['initDisplay',['../class_adafruit___p_c_d8544.html#ae3fa32f76b8656d2e5def0244bdfbd33',1,'Adafruit_PCD8544']]],
+  ['initializenative_3',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]],
+  ['invertdisplay_4',['invertDisplay',['../class_adafruit___g_f_x.html#a45028d348fe4eb23854eb86f5cf99388',1,'Adafruit_GFX::invertDisplay()'],['../class_adafruit___p_c_d8544.html#ad5946e8f53558f74e96af266b817bd72',1,'Adafruit_PCD8544::invertDisplay()']]],
+  ['ispressed_5',['isPressed',['../class_adafruit___g_f_x___button.html#adfdc75934b4acca801127fae6914fbf8',1,'Adafruit_GFX_Button']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['pcd8544_5fbuffer_0',['pcd8544_buffer',['../_adafruit___p_c_d8544_8cpp.html#a289134c303d75918072e684e0e6d32f5',1,'Adafruit_PCD8544.cpp']]]
+  ['gfxclrbit_0',['GFXclrBit',['../class_g_f_xcanvas1.html#ad401abcfb5ce8f69f3245185af20bbda',1,'GFXcanvas1']]],
+  ['gfxfont_1',['gfxFont',['../class_adafruit___g_f_x.html#afeb94c3253f43dada05e1270e322fa06',1,'Adafruit_GFX']]],
+  ['gfxsetbit_2',['GFXsetBit',['../class_g_f_xcanvas1.html#a8424772ba222a7c28992c43934213449',1,'GFXcanvas1']]]
 ];

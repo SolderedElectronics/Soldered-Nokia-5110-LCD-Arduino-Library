@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['xupdatemax_0',['xUpdateMax',['../class_adafruit___p_c_d8544.html#abb0546bf0bcc449af3e3f4d66e087bcf',1,'Adafruit_PCD8544']]],
-  ['xupdatemin_1',['xUpdateMin',['../class_adafruit___p_c_d8544.html#a60320e393fecbf57073be089d667bea6',1,'Adafruit_PCD8544']]]
+  ['readdata_0',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
+  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readregister_2',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
+  ['rotation_3',['rotation',['../class_adafruit___g_f_x.html#a37a479d28fb11906ce516e983b1af926',1,'Adafruit_GFX']]]
 ];
