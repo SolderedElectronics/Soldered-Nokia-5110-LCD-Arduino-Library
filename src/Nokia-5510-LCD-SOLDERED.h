@@ -5,7 +5,7 @@
  * @brief       Header file Nokia 5510 LCD library
  *
  *
- * @copyright GNU General Public License v3.0
+ * @copyright BSD License
  * @authors     Robert @ soldered.com
  ***************************************************/
 
