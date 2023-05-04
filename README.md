@@ -5,9 +5,9 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                      [NAZIV PROIZVODA](https://www.solde.red/333272)                      |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
+OPIS PROIZVODA
 
 ### Repository Contents
 
