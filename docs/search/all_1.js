@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['adafruit_20community_20code_20of_20conduct_0',['Adafruit Community Code of Conduct',['../md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html',1,'']]],
+  ['adafruit_20community_20code_20of_20conduct_0',['Adafruit Community Code of Conduct',['../md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html',1,'']]],
   ['adafruit_5fgfx_1',['Adafruit_GFX',['../class_adafruit___g_f_x.html#a6f6f1abccf677eac244fa17d105133ea',1,'Adafruit_GFX::Adafruit_GFX()'],['../class_adafruit___g_f_x.html',1,'Adafruit_GFX']]],
   ['adafruit_5fgfx_2ecpp_2',['Adafruit_GFX.cpp',['../_adafruit___g_f_x_8cpp.html',1,'']]],
   ['adafruit_5fgfx_2eh_3',['Adafruit_GFX.h',['../_adafruit___g_f_x_8h.html',1,'']]],

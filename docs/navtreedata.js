@@ -26,7 +26,7 @@ var NAVTREE =
 [
   [ "Soldered Nokia 5110 LCD Breakout Arduino library", "index.html", [
     [ "Have fun!", "index.html#autotoc_md8", null ],
-    [ "Adafruit Community Code of Conduct", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html", [
+    [ "Adafruit Community Code of Conduct", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html", [
       [ "Repository Contents", "index.html#autotoc_md1", null ],
       [ "Hardware design", "index.html#autotoc_md2", null ],
       [ "Documentation", "index.html#autotoc_md3", null ],
@@ -34,12 +34,12 @@ var NAVTREE =
       [ "About Soldered", "index.html#autotoc_md5", null ],
       [ "Original source", "index.html#autotoc_md6", null ],
       [ "Open-source license", "index.html#autotoc_md7", null ],
-      [ "Our Pledge", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md10", null ],
-      [ "Our Standards", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md11", null ],
-      [ "Our Responsibilities", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md12", null ],
-      [ "Moderation", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md13", null ],
-      [ "Scope", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md14", null ],
-      [ "Attribution", "md_src_libs__adafruit__p_c_d8544__nokia_5110__l_c_d_library_code_of_conduct.html#autotoc_md15", null ]
+      [ "Our Pledge", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md10", null ],
+      [ "Our Standards", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md11", null ],
+      [ "Our Responsibilities", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md12", null ],
+      [ "Moderation", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md13", null ],
+      [ "Scope", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md14", null ],
+      [ "Attribution", "md_src_2libs_2_adafruit___p_c_d8544___nokia__5110___l_c_d__library_2code-of-conduct.html#autotoc_md15", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
