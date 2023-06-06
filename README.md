@@ -5,7 +5,7 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/333272)                      |
+|                      [Soldered Nokia 5110 LCD Breakout](https://www.solde.red/333272)                      |
 
 OPIS PROIZVODA
 

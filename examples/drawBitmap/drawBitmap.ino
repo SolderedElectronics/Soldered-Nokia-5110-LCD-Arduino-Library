@@ -25,11 +25,11 @@
 // Set pin defines
 // Change this according to your board and the diagrams below
 // These are for Dasduino ConnectPlus
-#define CLK_PIN  18
-#define MOSI_PIN 23
-#define DC_PIN   33
-#define CS_PIN   5
-#define RST_PIN  32
+#define CLK_PIN  13
+#define MOSI_PIN 11
+#define DC_PIN   12
+#define CS_PIN   10
+#define RST_PIN  8
 
 // Set contrast
 // To find out the optimal value check contrastTest.ino
@@ -46,13 +46,16 @@
  * Nokia 5110 LCD Breakout      Dasduino Core / Connect / ConnectPlus
  * VCC------------------------->3V3
  * GND------------------------->GND
- * CLK------------------------->8/IO14/IO18
+ * CLK------------------------->13/IO14/IO18
  * MOSI------------------------>11/IO13/IO23
  * DC-------------------------->12/IO4/IO33
  * CS-------------------------->10/IO15/IO5
- * RST------------------------->9/IO5/IO32
+ * RST------------------------->RST_PIN (set by user)
  * OE-------------------------->3V3
  * LED (Backlight)------------->3V3
+ * 
+ * The LED Backlight pin may be connected to a GPIO pin to turn the backlight on or off,
+ * or even a PWM pin to set the brightness!
  *
  * If you are using hardware SPI, the declaration of the LCD object is:
  * LCD_5510(DC Pin, CS Pin, RST Pin);
@@ -65,7 +68,7 @@
  * For software SPI, use any available pins on your Dasduino Board.
  *
  * If you are using software SPI, the declaration of the LCD object is:
- * LCD_5510(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
+ * LCD_5510 display(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
  *
  */
 
@@ -155,6 +158,7 @@ void loop()
 
     // Rotate the image 180 degeres each time
     currentRotation += 2;
-    if(currentRotation == 4) currentRotation = 0;
-    display.setRotation(currentRotation); 
+    if (currentRotation == 4)
+        currentRotation = 0;
+    display.setRotation(currentRotation);
 }

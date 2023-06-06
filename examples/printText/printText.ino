@@ -4,7 +4,7 @@
  * @file        printText.ino
  * @brief       Printing text example for Soldered Nokia 5110 LCD Breakout.
  *              This example demonstrates basic text printing functions.
- * 
+ *
  *              To successfully run the sketch:
  *              -Connect the breakout to your Dasduino board according to the diagrams below
  *              -Adjust the contrast value (see contrastTest.ino)
@@ -26,11 +26,11 @@
 // Set pin defines
 // Change this according to your board and the diagrams below
 // These are for Dasduino ConnectPlus
-#define CLK_PIN 18
-#define MOSI_PIN 23
-#define DC_PIN 33
-#define CS_PIN 5
-#define RST_PIN 32
+#define CLK_PIN  13
+#define MOSI_PIN 11
+#define DC_PIN   12
+#define CS_PIN   10
+#define RST_PIN  8
 
 // Set contrast
 // To find out the optimal value check contrastTest.ino
@@ -47,17 +47,20 @@
  * Nokia 5110 LCD Breakout      Dasduino Core / Connect / ConnectPlus
  * VCC------------------------->3V3
  * GND------------------------->GND
- * CLK------------------------->8/IO14/IO18
+ * CLK------------------------->13/IO14/IO18
  * MOSI------------------------>11/IO13/IO23
  * DC-------------------------->12/IO4/IO33
  * CS-------------------------->10/IO15/IO5
- * RST------------------------->9/IO5/IO32
+ * RST------------------------->RST_PIN (set by user)
  * OE-------------------------->3V3
  * LED (Backlight)------------->3V3
+ * 
+ * The LED Backlight pin may be connected to a GPIO pin to turn the backlight on or off,
+ * or even a PWM pin to set the brightness!
  *
  * If you are using hardware SPI, the declaration of the LCD object is:
  * LCD_5510(DC Pin, CS Pin, RST Pin);
- * 
+ *
  * Note: with Hardware SPI MISO and SS pins aren't used but will still be read
  * and written to during SPI transfer. Be careful when sharing these pins!
  */
@@ -66,7 +69,7 @@
  * For software SPI, use any available pins on your Dasduino Board.
  *
  * If you are using software SPI, the declaration of the LCD object is:
- * LCD_5510(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
+ * LCD_5510 display(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
  *
  */
 
@@ -127,10 +130,10 @@ void loop()
         // Skip newline character
         if (i == '\n')
             continue;
-        
+
         // Write the character incremented by the current page index
         // This way different characters get written each iteration
-        display.write(i + 168*indexOfPage);
+        display.write(i + 168 * indexOfPage);
     }
     // Show the text on the display
     display.display();
@@ -138,7 +141,8 @@ void loop()
     // Go to next page of chars
     indexOfPage++;
     // If we are at page 10, go back to the start
-    if(indexOfPage >= 10) indexOfPage = 0;
+    if (indexOfPage >= 10)
+        indexOfPage = 0;
 
     // Wait a bit before printing next series of characters
     delay(3000);

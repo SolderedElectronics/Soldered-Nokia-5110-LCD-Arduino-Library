@@ -6,6 +6,7 @@
  *
  *              To successfully run the sketch:
  *              -Connect the breakout to your Dasduino board according to the diagrams below
+ *              -Set the line ending in the serial monitor to "No line ending"
  *              -Run the sketch and open serial monitor at 115200 baud to set the contrast
  *
  *              NOTE: This library uses Adafruit GFX functions and is compatible with the Adafruit GFX library!
@@ -25,11 +26,11 @@
 // Set pin defines
 // Change this according to your board and the diagrams below
 // These are for Dasduino ConnectPlus
-#define CLK_PIN  18
-#define MOSI_PIN 23
-#define DC_PIN   33
-#define CS_PIN   5
-#define RST_PIN  32
+#define CLK_PIN  13
+#define MOSI_PIN 11
+#define DC_PIN   12
+#define CS_PIN   10
+#define RST_PIN  8
 
 /**
  * When declaring the LCD object, you may use Hardware SPI or Software SPI.
@@ -42,13 +43,16 @@
  * Nokia 5110 LCD Breakout      Dasduino Core / Connect / ConnectPlus
  * VCC------------------------->3V3
  * GND------------------------->GND
- * CLK------------------------->8/IO14/IO18
+ * CLK------------------------->13/IO14/IO18
  * MOSI------------------------>11/IO13/IO23
  * DC-------------------------->12/IO4/IO33
  * CS-------------------------->10/IO15/IO5
- * RST------------------------->9/IO5/IO32
+ * RST------------------------->RST_PIN (set by user)
  * OE-------------------------->3V3
  * LED (Backlight)------------->3V3
+ * 
+ * The LED Backlight pin may be connected to a GPIO pin to turn the backlight on or off,
+ * or even a PWM pin to set the brightness!
  *
  * If you are using hardware SPI, the declaration of the LCD object is:
  * LCD_5510(DC Pin, CS Pin, RST Pin);
@@ -61,7 +65,7 @@
  * For software SPI, use any available pins on your Dasduino Board.
  *
  * If you are using software SPI, the declaration of the LCD object is:
- * LCD_5510(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
+ * LCD_5510 display(CLK Pin, MOSI Pin (DIN), DC Pin, CS Pin, RST Pin);
  *
  */
 
@@ -93,16 +97,17 @@ void setup()
 void loop()
 {
     // Prompt the user to enter a number
-    Serial.println("Send a number from 0 to 127 to use as contrast!");
-    while(!Serial.available())
+    Serial.println("Send a number from 1 to 127 to use as contrast!");
+    Serial.println("Make sure to set the line ending to \"No line ending\"");
+    while (!Serial.available())
     {
         delay(1);
     }
     // Read the number and check if it's a valid input
     int userInput = Serial.parseInt();
-    if(userInput < 0 || userInput > 127)
+    if (userInput < 1 || userInput > 127)
     {
-        Serial.println("Invalid input! Number must be from 0 to 127");
+        Serial.println("Invalid input! Number must be from 1 to 127");
         return;
     }
 
