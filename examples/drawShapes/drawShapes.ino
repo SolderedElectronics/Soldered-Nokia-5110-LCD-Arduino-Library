@@ -20,15 +20,37 @@
  * @authors     Robert @ soldered.com
  ***************************************************/
 
+/**
+ **************************************************
+ *
+ * @file        printText.ino
+ * @brief       Printing text example for Soldered Nokia 5110 LCD Breakout.
+ *              This example demonstrates basic text printing functions.
+ *
+ *              To successfully run the sketch:
+ *              -Connect the breakout to your Dasduino board according to the diagrams below
+ *              -Adjust the contrast value (see contrastTest.ino)
+ *
+ *              NOTE: This library uses Adafruit GFX functions and is compatible with the Adafruit GFX library!
+ *              Learn more about Adafruit GFX: https://learn.adafruit.com/adafruit-gfx-graphics-library
+ *
+ *              Soldered Nokia 5110 LCD Breakout: solde.red/333272
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
+ *
+ * @authors     Robert @ soldered.com
+ ***************************************************/
+
 // Include the library
 #include "Nokia-5510-LCD-SOLDERED.h"
 
 // Set pin defines
 // Change this according to your board and the diagrams below
-// These are for Dasduino ConnectPlus
+// These are for Dasduino Core
 #define CLK_PIN  13
 #define MOSI_PIN 11
-#define DC_PIN   12
+#define DC_PIN   9
 #define CS_PIN   10
 #define RST_PIN  8
 
@@ -49,7 +71,7 @@
  * GND------------------------->GND
  * CLK------------------------->13/IO14/IO18
  * MOSI------------------------>11/IO13/IO23
- * DC-------------------------->12/IO4/IO33
+ * DC-------------------------->9/IO4/IO33
  * CS-------------------------->10/IO15/IO5
  * RST------------------------->RST_PIN (set by user)
  * OE-------------------------->3V3
